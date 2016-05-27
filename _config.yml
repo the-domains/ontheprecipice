@@ -1,14 +1,26 @@
-layout_spectrum: 0.4712672
-typography_spectrum: 0.8252628
+layout_spectrum: 0.2106383
+name: Ontheprecipice
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.5586289
   brandStrength: 0.9548264
   saturation: 0.08500686
-  rhythmicContrast: 0.1533405
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-name: Ontheprecipice
+  lightness: 0.5586289
+  rhythmicContrast: 0.1533405
+typography_spectrum: 0.8252628
